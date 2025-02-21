@@ -1,0 +1,263 @@
+
+.header {
+    background-color: black;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    align-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+address {
+    color: white;
+}
+
+.search {
+    width: 90vh;
+    height: 4vh;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+.return a {
+    text-decoration: none;
+    width: 5px;
+    color: white;
+}
+
+.cart a {
+    border: 3px white solid;
+    color: wheat;
+    margin-left: 15px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.category {
+    background-color: rgb(7, 45, 103);
+    height: 6vh;
+    color: white;
+    align-content: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: white;
+    padding: 0.4vh;
+    margin-left: 1vh;
+    border: 0.7vh solid white;
+}
+
+.producta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+    border: 3px black solid;
+    background-color: lightgray;
+}
+
+.box1a {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box2c {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box3c {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.productb {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+    border: 3px black solid;
+    background-color: lightgray;
+}
+
+.box1b {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box2b {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box3b {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.productc {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 90vh;
+    border: 3px black solid;
+    background-color: lightgray;
+}
+
+.box1c {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box2c {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box3c {
+    height: 90vh;
+    width: 33%;
+    border: 3px black solid;
+}
+
+.box1a img,
+.box2c img,
+.box1b img,
+.box2b img,
+.box3b img,
+.box1c img,
+.box3c img,
+.box2c img,
+.box2a video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.producta div,
+.productb div,
+.productc div {
+    width: 33%;
+    border: 3px black solid;
+}
+
+.description1 {
+    position: relative;
+    bottom: 25vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description2 {
+    position: relative;
+    bottom: 18vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description3 {
+    position: relative;
+    bottom: 25vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description4 {
+    position: relative;
+    bottom: 12vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description5 {
+    position: relative;
+    bottom: 19vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description6 {
+    position: relative;
+    bottom: 19vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description7 {
+    position: relative;
+    bottom: 19vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.description8 {
+    position: relative;
+    bottom: 19vh;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: purple;
+}
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    height: 35vh;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}
